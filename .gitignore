@@ -35,3 +35,10 @@ Appendix A - Covariance Window Robustness Test/outputs/
 Thumbs.db
 .idea/
 .vscode/
+
+# Curated research-history outputs and local data
+.ipynb_checkpoints/
+research-history/**/data/
+research-history/**/results/
+research-history/**/outputs/
+research-history/**/logs/

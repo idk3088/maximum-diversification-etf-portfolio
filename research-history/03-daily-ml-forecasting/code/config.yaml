@@ -1,0 +1,189 @@
+# Dates are interpreted in the project's trading calendar.
+data_start_date: "2011-08-01"
+backtest_start_date: "2016-08-01"
+end_date: null  # null means the latest date available from the selected data source
+rebalance_frequency: monthly
+
+# Point-in-time universe and liquidity
+minimum_history_months: 60
+adv_window_days: 20
+classification_level: sector
+
+# Return target and nested walk-forward validation
+prediction_horizon_days: 21
+model_training_years: 5
+purge_days: 21
+candidate_models:
+  - ols
+  - ridge
+  - lasso
+  - random_forest
+  - xgboost
+
+# Covariance candidates and validation threshold
+covariance_candidate_methods:
+  - sample_covariance
+  - ewma_covariance
+  - ledoit_wolf_covariance
+covariance_candidate_windows:
+  - 21
+  - 60
+  - 126
+  - 252
+covariance_error_threshold: 0.10
+
+# Portfolio and execution assumptions not fixed numerically by the outline remain null.
+risk_free_rate: null
+transaction_cost_bps: null
+maximum_weight: null
+all_negative_excess_return_action: cash
+random_seed: 42
+
+# Step 3 sample feature build. Tickers are configuration, never core-function constants.
+step3_sample_tickers:
+  - XLK
+  - XLF
+  - XLE
+  - XLV
+  - XLP
+feature_return_windows:
+  - 1
+  - 5
+  - 10
+  - 21
+  - 63
+  - 126
+  - 252
+feature_sma_windows:
+  - 5
+  - 10
+  - 21
+  - 63
+  - 126
+  - 252
+feature_volatility_windows:
+  - 5
+  - 10
+  - 21
+  - 63
+  - 126
+  - 252
+feature_drawdown_windows:
+  - 21
+  - 63
+  - 252
+rsi_window: 14
+annualize_feature_volatility: false
+overwrite_existing_step3_outputs: false
+
+# Absolute-value thresholds used only for feature audit flag counts.
+feature_extreme_abs_thresholds:
+  return: 5.0
+  moving_average: 1000000.0
+  price_distance: 5.0
+  volatility: 2.0
+  ohlc: 5.0
+  volume_liquidity: 1000000000000000.0
+  rsi: 100.0
+  drawdown: 1.0
+
+# Step 4 nested purged walk-forward model selection.
+walk_forward_mode: rolling
+outer_validation_days: 21
+outer_fold_count: 3
+minimum_outer_folds: 3
+inner_validation_days: 21
+inner_fold_count: 2
+minimum_inner_folds: 2
+minimum_outer_train_rows: 252
+minimum_inner_train_rows: 126
+embargo_days: 0
+imputer_strategy: median
+inner_insufficient_fallback: default_parameters
+one_standard_error_rule: true
+one_se_insufficient_folds_fallback: minimum_mse
+direction_zero_rule: exact_sign_match
+model_complexity_order:
+  - OLS
+  - Ridge
+  - Lasso
+  - RandomForest
+  - XGBoost
+step4_sample_tickers:
+  - XLK
+  - XLF
+  - XLE
+  - XLV
+  - XLP
+step4_test_start_date: "2024-01-31"
+step4_test_end_date: "2024-06-30"
+step4_input_dataset: data/processed/model_dataset_sample.parquet
+overwrite_existing_step4_outputs: false
+n_jobs: 1
+parallelize_across_tickers: false
+ticker_workers: 2
+lasso_max_iter: 20000
+
+# Formal grids are fixed before validation results are observed.
+ridge_alpha_grid:
+  - 0.001
+  - 0.01
+  - 0.1
+  - 1.0
+  - 10.0
+  - 100.0
+lasso_alpha_grid:
+  - 0.000001
+  - 0.00001
+  - 0.0001
+  - 0.001
+  - 0.01
+  - 0.1
+random_forest_grid:
+  n_estimators:
+    - 200
+  max_depth:
+    - 3
+    - null
+  min_samples_leaf:
+    - 5
+    - 20
+  max_features:
+    - sqrt
+    - 0.5
+xgboost_grid:
+  n_estimators:
+    - 100
+    - 300
+  max_depth:
+    - 2
+    - 3
+  learning_rate:
+    - 0.03
+    - 0.1
+  subsample:
+    - 0.8
+  colsample_bytree:
+    - 0.8
+  reg_lambda:
+    - 1.0
+    - 10.0
+
+# Debug keeps the same leakage controls but uses one preset per tuned model.
+step4_debug_parameters:
+  Ridge:
+    alpha: 1.0
+  Lasso:
+    alpha: 0.001
+  RandomForest:
+    n_estimators: 100
+    max_depth: 3
+    min_samples_leaf: 10
+    max_features: sqrt
+  XGBoost:
+    n_estimators: 100
+    max_depth: 2
+    learning_rate: 0.1
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_lambda: 1.0

@@ -1,0 +1,27 @@
+# Core numerical and tabular computing
+numpy>=1.26
+pandas>=2.2
+scipy>=1.12
+
+# Machine-learning candidates and preprocessing (future stages)
+scikit-learn>=1.4
+xgboost>=2.0
+
+# Convex portfolio optimization (future stage)
+cvxpy>=1.4
+
+# Configuration and local environment variables
+PyYAML>=6.0
+python-dotenv>=1.0
+
+# ETF universe metadata and daily OHLCV acquisition
+requests>=2.32
+yfinance>=1.0
+
+# Result persistence and visualization (future stages)
+pyarrow>=15.0
+matplotlib>=3.8
+seaborn>=0.13
+
+# Test framework
+pytest>=8.0
