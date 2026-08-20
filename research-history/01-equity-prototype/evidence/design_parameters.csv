@@ -1,0 +1,6 @@
+parameter,value,research_concern
+minimum_asset_weight,0.05,Manually selected lower bound without a demonstrated economic or statistical basis
+maximum_asset_weight,0.25,Manually selected upper bound without a demonstrated economic or statistical basis
+volatility_penalty,0.20,Subjective trade-off coefficient inside the composite objective
+maximum_drawdown_penalty,0.35,Subjective trade-off coefficient inside the composite objective
+positive_spy_correlation_penalty,0.05,Subjective trade-off coefficient inside the composite objective

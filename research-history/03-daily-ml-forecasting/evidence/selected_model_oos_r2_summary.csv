@@ -1,0 +1,7 @@
+ticker,selected_model_observations,mean_oos_r2,minimum_oos_r2,maximum_oos_r2
+XLE,6,-0.3200,-1.2000,0.1300
+XLF,6,-0.6800,-1.7700,0.0000
+XLK,6,-0.3800,-1.5300,0.6900
+XLP,6,-0.6600,-1.4100,0.0300
+XLV,6,-0.5800,-1.4000,-0.0400
+OVERALL,30,-0.5240,-1.7700,0.6929

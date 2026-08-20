@@ -34,6 +34,23 @@ flowchart LR
 | 4. Portfolio evaluation | Compares the fixed MDP with equal weight and SPY | Return, risk, drawdown, and correlation metrics |
 | Appendix | Repeats the MDP across alternative covariance windows | Sensitivity and weight-stability tables |
 
+## Research journey
+
+The final pipeline is the result of four earlier experiments that exposed
+different forms of research-design risk:
+
+```mermaid
+flowchart LR
+    A[Equity prototype<br/>heuristic bounds] --> B[ETF selection<br/>residual universe bias]
+    B --> C[Daily ML<br/>mean OOS R² = -0.524]
+    C --> D[Minimum correlation<br/>81% in one ETF]
+    D --> E[Maximum diversification<br/>final 4.0 design]
+```
+
+The curated [`research-history/`](research-history/) archive preserves the
+core code and compact evidence for those negative results. It explains not
+only what changed, but why each rejected hypothesis changed the next version.
+
 ## Methodology
 
 The diversification ratio is
@@ -126,11 +143,11 @@ generated results.
 
 ## Project scope
 
-This repository presents the cleaned, final research pipeline. Earlier local
-iterations, virtual environments, caches, temporary test artifacts, and
-internal development documents are intentionally not part of the published
-codebase. See [Project history](docs/PROJECT_HISTORY.md) for the organization
-decision.
+This repository presents the cleaned final pipeline together with curated
+historical research snapshots. Virtual environments, caches, temporary test
+artifacts, duplicated backups, licensed raw market data, and internal
+development documents are intentionally not part of the published codebase.
+See [Project history](docs/PROJECT_HISTORY.md) for the organization decision.
 
 ## References
 

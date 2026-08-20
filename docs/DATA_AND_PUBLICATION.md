@@ -7,6 +7,10 @@ provided through environment variables. Provider caches, aligned price and
 return series, covariance estimates, portfolio results, and generated charts
 are ignored by Git so that a public clone does not redistribute licensed data.
 
+The historical archive follows the same rule for Yahoo, Alpha Vantage, Twelve
+Data, and other cached provider files. It contains source code and compact
+aggregate research evidence, not the underlying vendor price histories.
+
 Before publishing any generated dataset, result table, chart, report, or web
 page, review the current terms of the relevant provider and obtain any required
 redistribution permission. Keep attribution with any publication when the
