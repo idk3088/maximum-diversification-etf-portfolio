@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Provider market-data caches and generated research outputs
+Stage 1 - ETF Selection/data/data_cache/
+Stage 1 - ETF Selection/data/liquidity_market_data/
+Stage 1 - ETF Selection/data/liquidity_ranking.csv
+Stage 1 - ETF Selection/data/selected_sector_etfs.csv
+Stage 2 - Return and Risk Data Preparation/data/raw_tiingo/
+Stage 2 - Return and Risk Data Preparation/outputs/
+Stage 3 - Maximum Diversification Portfolio Construction/outputs/
+Stage 4 - Portfolio Evaluation/data/raw_tiingo/
+Stage 4 - Portfolio Evaluation/outputs/
+Appendix A - Covariance Window Robustness Test/outputs/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

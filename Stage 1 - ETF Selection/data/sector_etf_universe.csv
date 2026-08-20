@@ -1,0 +1,55 @@
+ticker,etf_name,issuer,underlying_index,gics_sector,source
+XLK,State Street Technology Select Sector SPDR ETF,State Street Investment Management,Technology Select Sector Index,Information Technology,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xlk.pdf
+VGT,Vanguard Information Technology ETF,Vanguard,MSCI US Investable Market Information Technology 25/50 Index,Information Technology,https://investor.vanguard.com/investment-products/etfs/profile/vgt
+FTEC,Fidelity MSCI Information Technology Index ETF,Fidelity Investments,MSCI USA IMI Information Technology 25/50 Index,Information Technology,https://www.fidelity.com/etfs/find-an-etf
+IYW,iShares U.S. Technology ETF,BlackRock iShares,Russell 1000 Technology RIC 22.5/45 Capped Index,Information Technology,https://www.ishares.com/us/products/239522/
+RSPT,Invesco S&P 500 Equal Weight Technology ETF,Invesco,S&P 500 Equal Weight Information Technology Index,Information Technology,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-technology-etf.html
+XLV,State Street Health Care Select Sector SPDR ETF,State Street Investment Management,Health Care Select Sector Index,Health Care,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xlv.pdf
+VHT,Vanguard Health Care ETF,Vanguard,MSCI US Investable Market Health Care 25/50 Index,Health Care,https://investor.vanguard.com/investment-products/etfs/profile/vht
+FHLC,Fidelity MSCI Health Care Index ETF,Fidelity Investments,MSCI USA IMI Health Care Index,Health Care,https://www.fidelity.com/etfs/find-an-etf
+IYH,iShares U.S. Healthcare ETF,BlackRock iShares,Russell 1000 Health Care RIC 22.5/45 Capped Index,Health Care,https://www.ishares.com/us/products/239511/
+RSPH,Invesco S&P 500 Equal Weight Health Care ETF,Invesco,S&P 500 Equal Weight Health Care Index,Health Care,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-health-care-etf.html
+XLF,State Street Financial Select Sector SPDR ETF,State Street Investment Management,Financial Select Sector Index,Financials,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xlf.pdf
+VFH,Vanguard Financials ETF,Vanguard,MSCI US Investable Market Financials 25/50 Index,Financials,https://investor.vanguard.com/investment-products/etfs/profile/vfh
+FNCL,Fidelity MSCI Financials Index ETF,Fidelity Investments,MSCI USA IMI Financials 25/50 Index,Financials,https://www.fidelity.com/etfs/find-an-etf
+IYF,iShares U.S. Financials ETF,BlackRock iShares,Russell 1000 Financials 40 Act 15/22.5 Daily Capped Index,Financials,https://www.ishares.com/us/products/239508/
+RSPF,Invesco S&P 500 Equal Weight Financials ETF,Invesco,S&P 500 Equal Weight Financials Index,Financials,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-financials-etf.html
+XLY,State Street Consumer Discretionary Select Sector SPDR ETF,State Street Investment Management,Consumer Discretionary Select Sector Index,Consumer Discretionary,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xly.pdf
+VCR,Vanguard Consumer Discretionary ETF,Vanguard,MSCI US Investable Market Consumer Discretionary 25/50 Index,Consumer Discretionary,https://investor.vanguard.com/investment-products/etfs/profile/vcr
+FDIS,Fidelity MSCI Consumer Discretionary Index ETF,Fidelity Investments,MSCI USA IMI Consumer Discretionary 25/50 Index,Consumer Discretionary,https://www.fidelity.com/etfs/find-an-etf
+IYC,iShares U.S. Consumer Discretionary ETF,BlackRock iShares,Russell 1000 Consumer Discretionary 40 Act 15/22.5 Daily Capped Index,Consumer Discretionary,https://www.ishares.com/us/products/239506/
+RSPD,Invesco S&P 500 Equal Weight Consumer Discretionary ETF,Invesco,S&P 500 Equal Weight Consumer Discretionary Index,Consumer Discretionary,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-consumer-discretionary-etf.html
+XLC,State Street Communication Services Select Sector SPDR ETF,State Street Investment Management,Communication Services Select Sector Index,Communication Services,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xlc.pdf
+VOX,Vanguard Communication Services ETF,Vanguard,MSCI US Investable Market Communication Services 25/50 Index,Communication Services,https://investor.vanguard.com/investment-products/etfs/profile/vox
+FCOM,Fidelity MSCI Communication Services Index ETF,Fidelity Investments,MSCI USA IMI Communication Services 25/50 Index,Communication Services,https://www.fidelity.com/etfs/find-an-etf
+RSPC,Invesco S&P 500 Equal Weight Communication Services ETF,Invesco,S&P 500 Equal Weight Communication Services Plus Index,Communication Services,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-communication-services-etf.html
+XLI,State Street Industrial Select Sector SPDR ETF,State Street Investment Management,Industrial Select Sector Index,Industrials,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xli.pdf
+VIS,Vanguard Industrials ETF,Vanguard,MSCI US Investable Market Industrials 25/50 Index,Industrials,https://investor.vanguard.com/investment-products/etfs/profile/vis
+FIDU,Fidelity MSCI Industrials Index ETF,Fidelity Investments,MSCI USA IMI Industrials 25/50 Index,Industrials,https://www.fidelity.com/etfs/find-an-etf
+IYJ,iShares U.S. Industrials ETF,BlackRock iShares,Russell 1000 Industrials 40 Act 15/22.5 Daily Capped Index,Industrials,https://www.ishares.com/us/products/239514/
+RSPN,Invesco S&P 500 Equal Weight Industrials ETF,Invesco,S&P 500 Equal Weight Industrials Index,Industrials,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-industrials-etf.html
+XLP,State Street Consumer Staples Select Sector SPDR ETF,State Street Investment Management,Consumer Staples Select Sector Index,Consumer Staples,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xlp.pdf
+VDC,Vanguard Consumer Staples ETF,Vanguard,MSCI US Investable Market Consumer Staples 25/50 Index,Consumer Staples,https://investor.vanguard.com/investment-products/etfs/profile/vdc
+FSTA,Fidelity MSCI Consumer Staples Index ETF,Fidelity Investments,MSCI USA IMI Consumer Staples 25/50 Index,Consumer Staples,https://www.fidelity.com/etfs/find-an-etf
+IYK,iShares U.S. Consumer Staples ETF,BlackRock iShares,Russell 1000 Consumer Staples RIC 22.5/45 Capped Index,Consumer Staples,https://www.ishares.com/us/products/239505/
+RSPS,Invesco S&P 500 Equal Weight Consumer Staples ETF,Invesco,S&P 500 Equal Weight Consumer Staples Index,Consumer Staples,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-consumer-staples-etf.html
+XLE,State Street Energy Select Sector SPDR ETF,State Street Investment Management,Energy Select Sector Index,Energy,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xle.pdf
+VDE,Vanguard Energy ETF,Vanguard,MSCI US Investable Market Energy 25/50 Index,Energy,https://investor.vanguard.com/investment-products/etfs/profile/vde
+FENY,Fidelity MSCI Energy Index ETF,Fidelity Investments,MSCI USA IMI Energy 25/50 Index,Energy,https://www.fidelity.com/etfs/find-an-etf
+IYE,iShares U.S. Energy ETF,BlackRock iShares,Russell 1000 Energy RIC 22.5/45 Capped Index,Energy,https://www.ishares.com/us/products/239507/
+RSPG,Invesco S&P 500 Equal Weight Energy ETF,Invesco,S&P 500 Equal Weight Energy Plus Index,Energy,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-energy-etf.html
+XLU,State Street Utilities Select Sector SPDR ETF,State Street Investment Management,Utilities Select Sector Index,Utilities,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xlu.pdf
+VPU,Vanguard Utilities ETF,Vanguard,MSCI US Investable Market Utilities 25/50 Index,Utilities,https://investor.vanguard.com/investment-products/etfs/profile/vpu
+FUTY,Fidelity MSCI Utilities Index ETF,Fidelity Investments,MSCI USA IMI Utilities 25/50 Index,Utilities,https://www.fidelity.com/etfs/find-an-etf
+IDU,iShares U.S. Utilities ETF,BlackRock iShares,Russell 1000 Utilities RIC 22.5/45 Capped Index,Utilities,https://www.ishares.com/us/products/239524/
+RSPU,Invesco S&P 500 Equal Weight Utilities ETF,Invesco,S&P 500 Equal Weight Utilities Plus Index,Utilities,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-utilities-etf.html
+XLRE,State Street Real Estate Select Sector SPDR ETF,State Street Investment Management,Real Estate Select Sector Index,Real Estate,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xlre.pdf
+VNQ,Vanguard Real Estate ETF,Vanguard,MSCI US Investable Market Real Estate 25/50 Index,Real Estate,https://investor.vanguard.com/investment-products/etfs/profile/vnq
+FREL,Fidelity MSCI Real Estate Index ETF,Fidelity Investments,MSCI USA IMI Real Estate 25/50 Index,Real Estate,https://www.fidelity.com/etfs/find-an-etf
+IYR,iShares U.S. Real Estate ETF,BlackRock iShares,Dow Jones U.S. Real Estate Capped Index,Real Estate,https://www.ishares.com/us/products/239520/
+RSPR,Invesco S&P 500 Equal Weight Real Estate ETF,Invesco,S&P 500 Equal Weight Real Estate Index,Real Estate,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-real-estate-etf.html
+XLB,State Street Materials Select Sector SPDR ETF,State Street Investment Management,Materials Select Sector Index,Materials,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xlb.pdf
+VAW,Vanguard Materials ETF,Vanguard,MSCI US Investable Market Materials 25/50 Index,Materials,https://investor.vanguard.com/investment-products/etfs/profile/vaw
+FMAT,Fidelity MSCI Materials Index ETF,Fidelity Investments,MSCI USA IMI Materials 25/50 Index,Materials,https://www.fidelity.com/etfs/find-an-etf
+IYM,iShares U.S. Basic Materials ETF,BlackRock iShares,Russell 1000 Basic Materials RIC 22.5/45 Capped Index,Materials,https://www.ishares.com/us/products/239503/
+RSPM,Invesco S&P 500 Equal Weight Materials ETF,Invesco,S&P 500 Equal Weight Materials Index,Materials,https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-equal-weight-materials-etf.html
